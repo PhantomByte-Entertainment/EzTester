@@ -9,7 +9,7 @@ namespace EzTester
     /// without using specific objects, just only the mouse pointer.
     /// The attached object will follow the mouse pointer in the game world, it should have a collider attached to it.
     /// </summary>
-    public class EzMousePointer : MonoBehaviour
+    public class Ez3DMousePointer : MonoBehaviour
     {
         [SerializeField]
         [Tooltip("The pointer object that will be used to show the mouse pointer")]
