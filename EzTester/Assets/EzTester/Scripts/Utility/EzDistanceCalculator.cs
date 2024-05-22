@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace EzTester
+namespace EzUtility
 {
     /// <summary>
     /// Namespace containing classes related to distance calculation in the game world.

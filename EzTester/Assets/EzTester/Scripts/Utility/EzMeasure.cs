@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace EzTester
+namespace EzUtility
 {
     /// <summary>
     /// Enum representing the display type of the distance indicator.
@@ -67,6 +67,8 @@ namespace EzTester
         protected Color m_distanceTextColor = Color.white;/**The color of the distance text */
 
         protected GameObject m_distanceTextObject;/**The distance text object */
+
+        protected string m_unit="units";/**The unit of the distance */
         protected virtual void Start()
         {
             if (m_object1 == null || m_object2 == null)
@@ -115,7 +117,7 @@ namespace EzTester
             textMesh.alignment = m_distanceAlignment;
             textMesh.fontStyle = m_distanceFontStyle;
             textMesh.font = m_distanceFont;
-            textMesh.text = Calculate().ToString("F2");
+            textMesh.text = Calculate().ToString("F2")+" "+m_unit;
         }
 
 
