@@ -5,7 +5,7 @@ EzTester is a powerful package that provides a range of tools to simplify testin
 ## Ez3DMouseCursor
 Ez3DMouseCursor allows you to test collisions, triggers, and more using the mouse. You can also attach custom objects for testing purposes.
 
-## EzMesure Suite
+## EzMesures Suite
 EzMesure Suite offers various measurement capabilities. You can compute and retrieve the distance between two objects, choose whether to display it in the game view or only in the debug view. Additionally, you can calculate the angle between two objects on the Y and X axes.
 
 ## RaycastViewer and RaycastHitter
